@@ -124,7 +124,6 @@
     border-radius: 8px;
     font-size: 16px;
     cursor: pointer;
-    transition: background 0.3s;
   }
 
   .form-contato button:hover {
@@ -145,3 +144,65 @@
       padding: 20px;
     }
   }
+
+#boas-vindas {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #4f46e5;
+}
+
+.erro {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  display: block;
+}
+
+body.claro {
+  background: linear-gradient(to right, #f0f2f5, #e0e7ff);
+  color: #333;
+}
+
+body.escuro {
+  background: linear-gradient(to right, #1f2937, #111827);
+  color: #f0f0f0;
+}
+
+body.escuro .container {
+  background: #1e293b;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+body.escuro h1,
+body.escuro h2,
+body.escuro p,
+body.escuro .social a {
+  color: #93c5fd;
+}
+
+body.escuro .form-contato input,
+body.escuro .form-contato textarea {
+  background: #334155;
+  color: #f0f0f0;
+  border: 1px solid #475569;
+}
+
+body.escuro .form-contato button {
+  background: #2563eb;
+}
+
+body.escuro .form-contato button:hover {
+  background: #1d4ed8;
+}
+
+#toggle-tema {
+    padding: 12px 24px;
+    background: #7c3aed;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
